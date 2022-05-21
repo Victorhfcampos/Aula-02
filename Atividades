@@ -124,3 +124,32 @@ elif (temperatura >38.5) and (temperatura <=39.4):
 else:
     print("Você está com febre grave!")
 
+Atividade monitor
+usuario = input("Informe o usuário:"))
+senha = input("Insira a senha:"))
+
+if usuario.upper() == "INFINITY" and senha == "school":
+    print("LOGIN REALIZADO")
+else:
+    print("ACESSO NEGADO")
+
+Atividade 11
+nome = input("Qual o nome do aluno:")
+nota1 = float(input("Qual a nota 1?"))
+nota2 = float(input("Qual a nota 2?"))
+
+media = (nota1 + nota2) / 2
+
+if media > 7.0:
+    print(f"O aluno(a) {nome} teve a média {media:.2f} e foi aprovado com conceito A")
+elif media >= 5.0 and media <=7.0:
+    print(f"O aluno(a) {nome} teve a média {media:.2f} e foi aprovado com conceito B")
+elif media >= 4.0 and media < 5.0:
+    print(f"O aluno(a) {nome} teve a média {media:.2f} e fará avaliação final")
+else:
+    print(f"O aluno(a) {nome} teve a média {media:.2f} e infelizmente foi reprovado :(")
+
+
+
+
+
