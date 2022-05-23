@@ -1,8 +1,0 @@
-#print(pow(2,2))
-
-"""Peça um número (inteiro) ao usuário e mostre o resultado dele elevado ao CUBO."""
-
-numero = int(input("Digite um número"))
-
-print(numero**3)
-print(pow(numero, 3))
