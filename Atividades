@@ -1,3 +1,16 @@
+Atividade 01
+#print(pow(2,2))
+"""Peça um número (inteiro) ao usuário e mostre o resultado dele elevado ao CUBO."""
+
+numero = int(input("Digite um número"))
+
+print(numero**3)
+print(pow(numero, 3))
+
+Atividade 02
+numero = 1.51
+print(round(numero))
+
 numero = 1.51
 
 import math
@@ -124,7 +137,7 @@ elif (temperatura >38.5) and (temperatura <=39.4):
 else:
     print("Você está com febre grave!")
 
-Atividade monitor
+Atividade Monitor
 usuario = input("Informe o usuário:"))
 senha = input("Insira a senha:"))
 
